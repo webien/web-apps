@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Webien">
+    <meta name="description" content="Minimal to-do app to organise your life like never before.">
+    <title>Todo List | Minimal To-Do List</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="input-wrapper">
+            <input class="task-input" type="text" placeholder="Add a task" autocomplete="off" autofocus>
+            <button class="add-task-btn">
+                <img src="assets/plus.svg" alt="+">
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="date">
+            <h2>Today</h2>
+            <p id="date-text">March 4 2010</p>
+        </div>
+
+        <ul id="task-list"></ul>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

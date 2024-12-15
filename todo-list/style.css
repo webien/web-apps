@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --deep-blue: #F56565;
+    --gray: #494646;
+    --light-black: #202127;
+    --dark-black: #1B1B1F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #DFE0D7;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--dark-black);
+}
+
+header {
+    background-color: var(--dark-black);
+    box-shadow: 1px 0 1px 1px black;
+    height: 10vh;
+    padding-inline: 1em;
+    align-content: center;
+    box-shadow: 2px 0 20px 2px rgba(0, 0, 0, 0.315);
+    position: sticky;
+    top: 0;
+}
+
+input {
+    font-family: inherit;
+    background-color: #161618;
+    outline: none;
+    border: none;
+    caret-color: var(--deep-blue);
+}
+
+button {
+    font-family: inherit;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    color: #DFE0D7;
+}
+
+.input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.task-input {
+    font-size: inherit;
+    color: #DFE0D7;
+    padding: 1em 1em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.add-task-btn {
+    font-weight: 600;
+    background-color: #161618;
+    align-self: stretch;
+    border-radius: 5px;
+    padding-inline: 0.75em;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.05ch;
+}
+
+main {
+    height: 90vh;
+    padding: 2em 1em 0;
+}
+
+.date {
+    padding-bottom: 1.5em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1ch;
+    padding-bottom: 0.35em;
+}
+
+.date p {
+    font-weight: 400;
+    color: #ffffff81;
+    font-size: 0.85rem;
+    letter-spacing: 0.075ch;
+}
+
+ul {
+    font-size: 1rem;
+    font-weight: 400;
+    list-style-type: none;
+    letter-spacing: 0.1ch;
+    word-spacing: 0.1ch;
+}
+
+li {
+    border-radius: 5px;
+    background-color: var(--light-black);
+    padding: 1.35em 1em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img,
+svg {
+    display: block;
+}
+
+.list-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
